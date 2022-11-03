@@ -18,7 +18,8 @@ contract RuleEngineTest is Test, HelperContract, ValidationModule {
             "CMTA Token",
             "CMTAT",
             "CMTAT_ISIN",
-            "https://cmta.ch"
+            "https://cmta.ch",
+            IRuleEngine(ZERO_ADDRESS)
         );
     }
 
@@ -59,7 +60,8 @@ contract RuleEngineSetTest is Test, HelperContract, ValidationModule {
             "CMTA Token",
             "CMTAT",
             "CMTAT_ISIN",
-            "https://cmta.ch"
+            "https://cmta.ch",
+            IRuleEngine(ZERO_ADDRESS)
         );
 
         // Config perso

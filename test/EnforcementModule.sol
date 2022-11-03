@@ -24,7 +24,8 @@ contract EnforcementAuthorizationModule is
             "CMTA Token",
             "CMTAT",
             "CMTAT_ISIN",
-            "https://cmta.ch"
+            "https://cmta.ch",
+            IRuleEngine(ZERO_ADDRESS)
         );
     }
 

@@ -14,7 +14,8 @@ contract MintModuleTest is Test, HelperContract, MintModule, ERC20Upgradeable {
             "CMTA Token",
             "CMTAT",
             "CMTAT_ISIN",
-            "https://cmta.ch"
+            "https://cmta.ch",
+            IRuleEngine(ZERO_ADDRESS)
         );
     }
 

@@ -14,7 +14,8 @@ contract PauseModuleTest is Test, HelperContract, PauseModule {
             "CMTA Token",
             "CMTAT",
             "CMTAT_ISIN",
-            "https://cmta.ch"
+            "https://cmta.ch",
+            IRuleEngine(ZERO_ADDRESS)
         );
     }
 

@@ -14,7 +14,8 @@ contract BaseModuleTest is Test, HelperContract, BaseModule {
             "CMTA Token",
             "CMTAT",
             "CMTAT_ISIN",
-            "https://cmta.ch"
+            "https://cmta.ch",
+            IRuleEngine(ZERO_ADDRESS)
         );
     }
 
@@ -151,7 +152,8 @@ contract AllowanceTest is Test, HelperContract, BaseModule {
             "CMTA Token",
             "CMTAT",
             "CMTAT_ISIN",
-            "https://cmta.ch"
+            "https://cmta.ch",
+            IRuleEngine(ZERO_ADDRESS)
         );
     }
 
@@ -285,7 +287,8 @@ contract TransferTest is Test, HelperContract, BaseModule {
             "CMTA Token",
             "CMTAT",
             "CMTAT_ISIN",
-            "https://cmta.ch"
+            "https://cmta.ch",
+            IRuleEngine(ZERO_ADDRESS)
         );
 
         // Personal config

@@ -13,7 +13,8 @@ contract BurnModuleTest is Test, HelperContract, BurnModule, ERC20Upgradeable {
             "CMTA Token",
             "CMTAT",
             "CMTAT_ISIN",
-            "https://cmta.ch"
+            "https://cmta.ch",
+            IRuleEngine(ZERO_ADDRESS)
         );
         vm.prank(OWNER);
         CMTAT_CONTRACT.mint(ADDRESS1, 50);
